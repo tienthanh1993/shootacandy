@@ -1,0 +1,93 @@
+{
+    "android": {
+        "AdMob": {
+            "test": false, 
+            "ads": {
+                "gameover": {
+                    "type": "interstitial", 
+                    "id": "ca-app-pub-2955926447585960/8165652539"
+                }
+            }
+        }, 
+        "sdkboxplay": {
+            "leaderboards": [
+                {
+                    "id": "CgkIlqneqoYaEAIQAA",
+                    "name": "leaderboard"
+                }
+            ], 
+            "achievements": [
+                {
+                    "incremental": false, 
+                    "id": "CgkI0sux8sMWEAIQAg", 
+                    "name": "ten-games"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "CgkI0sux8sMWEAIQAw", 
+                    "name": "hunter"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "CgkI0sux8sMWEAIQBA", 
+                    "name": "craftsman"
+                }, 
+                {
+                    "incremental": true, 
+                    "id": "CgkI0sux8sMWEAIQBQ", 
+                    "name": "incremental"
+                }
+            ], 
+            "connect_on_start": true,
+            "debug": false
+        }
+    }, 
+    "ios": {
+        "AdMob": {
+            "test": false,
+            "ads": {
+                "gameover": {
+                    "type": "interstitial", 
+                    "id": "ca-app-pub-2955926447585960/2119118933"
+                }
+            }
+        }, 
+        "sdkboxplay": {
+            "leaderboards": [
+                {
+                    "id": "com.vuamobi.shootacandy.topscore",
+                    "name": "leaderboard"
+                }
+            ], 
+            "achievements": [
+                {
+                    "incremental": false, 
+                    "id": "tengames", 
+                    "name": "ten-games"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "hunter", 
+                    "name": "hunter"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "craftsman", 
+                    "name": "craftsman"
+                }, 
+                {
+                    "incremental": true, 
+                    "id": "incremental", 
+                    "name": "incremental"
+                }, 
+                {
+                    "incremental": false, 
+                    "id": "hidden", 
+                    "name": "hidden"
+                }
+            ], 
+            "connect_on_start": true,
+            "debug": false
+        }
+    }
+}
